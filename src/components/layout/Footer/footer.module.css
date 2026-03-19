@@ -1,0 +1,72 @@
+.footer {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    180deg,
+    rgba(26, 26, 26, 0) 0%,
+    rgba(26, 26, 26, 0.35) 100%
+  );
+  scroll-margin-top: 90px;
+}
+
+@media (min-width: 480px) {
+  .footer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 1.5rem 2rem;
+  }
+}
+
+
+
+.iconLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (min-width: 480px) {
+  .iconLinks {
+    gap: 1.25rem;
+  }
+}
+
+.iconLink {
+  color: rgba(255, 255, 255, 0.55);
+  padding: 0.35rem;
+  border-radius: 8px;
+  transition: color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.iconLink:hover {
+  color: rgba(255, 255, 255, 0.95);
+  transform: scale(1.08);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+@media (min-width: 480px) {
+  .icon {
+    width: 1.65rem;
+    height: 1.65rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
